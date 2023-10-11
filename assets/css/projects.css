@@ -1,0 +1,176 @@
+/* PROJECTS PART */
+.project_library {
+    padding: 100px 0 60px;
+    width: 100%;
+}
+
+.library_box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.library_box h2 {
+    font-size: 62px;
+    font-weight: 800;
+}
+
+.started_points {
+    margin: 40px;
+}
+
+.started_points h3 {
+    font-size: 23px;
+    text-decoration: underline;
+    text-align: center;
+    font-weight: 800;
+}
+
+.started_points h4 {
+    font-weight: 500;
+    font-size: 21px;
+    margin-top: 18px;
+}
+
+.started_points h4:nth-child(5) {
+    font-weight: 700;
+    font-size: 21px;
+}
+
+.view_all {
+    padding: 11px 20px;
+    background-color: black;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.level_one {
+    padding: 11px 20px;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+    background: none;
+    border: 2px solid black;
+}
+
+.level_one:hover {
+    background-color: #bcff93;
+}
+
+.level_two {
+    padding: 11px 20px;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+    background: none;
+    border: 2px solid black;
+}
+
+.level_two:hover {
+    background-color: #fcff74;
+}
+
+
+.level_three {
+    padding: 11px 20px;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+    background: none;
+    border: 2px solid black;
+}
+
+.level_three:hover {
+    background-color: #ffd430;
+}
+
+input[type="text"] {
+    width: 412px;
+    height: 50px;
+    padding: 0 15px;
+    border: 2px solid black;
+    margin: 15px 0;
+    font-size: 18px;
+}
+
+.library_box h5 {
+    font-size: 17px;
+    width: 52%;
+    margin-top: 25px;
+    text-align: center;
+}
+
+/* list_projects */
+
+.list_projects {
+    width: 100%;
+    padding: 0px 15px 70px;
+    border-bottom: 2px solid black;
+}
+
+.practice_list {
+    display: grid;
+    grid-template-columns: 23% 23% 23% 23%;
+    gap: 35px;
+}
+
+.practice_item {
+    border: 2px solid;
+    transition: 0.3s all ease-in-out;
+}
+
+.practice_item:hover {
+    transform: translateY(-7px);
+}
+
+
+.practice_item img {
+    width: 100%;
+    height: 400px;
+    cursor: pointer;
+}
+
+/* retired-projects */
+
+.retired-projects {
+    padding: 70px 15px;
+    width: 100%;
+}
+
+.retired_content h2 {
+    font-size: 30px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.retired_content p {
+    text-align: center;
+    font-weight: 700;
+    font-size: 17px;
+    width: 48%;
+    margin: 30px auto 60px;
+}
+
+.retired_list {
+    display: grid;
+    grid-template-columns: 23% 23% 23% 23%;
+    gap: 35px;
+}
+
+.retired_item {
+    border: 2px solid;
+    transition: 0.3s all ease-in-out;
+}
+
+.retired_item:hover {
+    transform: translateY(-7px);
+}
+
+.retired_item img {
+    width: 100%;
+    height: 400px;
+    cursor: pointer;
+}
+

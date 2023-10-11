@@ -1,0 +1,123 @@
+/* Blog Part */
+
+.practice_blog {
+    width: 100%;
+    padding: 100px 0; 
+    background-color: #f7f7f7;
+}
+
+.blog_content h2 {
+    font-size: 60px;
+    text-align: center;
+    font-weight: 800;
+    width: 43%;
+    margin: 0 auto;
+}
+
+.blog_content p {
+    text-align: center;
+    margin: 30px auto;
+    font-weight: 500;
+    font-size: 19px;
+    width: 65%;
+}
+
+.blog_choice {
+    width: 76%;
+    margin: 0 auto;
+    padding: 60px 0 0;
+}
+
+.text_head {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    line-height: 2.5;
+}
+
+.text_head h2 {
+    font-size: 21px;
+    color: rgb(51, 51, 51);
+    padding: 0 30px;
+}
+
+.text_center {
+    display: flex;
+    justify-content: space-between;
+    line-height: 2.5;
+}
+
+.text_center h2 {
+    font-size: 21px;
+    color: rgb(51, 51, 51);
+    padding: 0 30px;
+}
+
+.text_bottom {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    line-height: 2.5;
+}
+
+.text_bottom h2 {
+    font-size: 21px;
+    color: rgb(51, 51, 51);
+    padding: 0 30px;
+}
+
+.btn_head {
+    line-height: 3.2;
+    padding: 0px 25px;
+}
+
+.btn_head button {
+    padding: 4px 8px;
+    border-radius: 33%;
+    background-color: black;
+    color: #ffffff;
+    font-weight: 500;
+}
+
+.btn_head button:hover {
+  background-color:  #c7c3c3;
+  border: none;
+}
+
+.btn_center {
+    line-height: 3.2;
+    padding: 0px 25px;
+}
+
+.btn_center button {
+    padding: 4px 8px;
+    border-radius: 33%;
+    background-color: black;
+    color: #ffffff;
+    font-weight: 500;
+}
+
+.btn_center button:hover {
+    background-color: #c7c3c3;
+    border: none;
+}
+
+.btn_btm {
+    line-height: 3.2;
+    padding: 0px 25px;
+}
+
+.btn_btm button {
+    padding: 4px 8px;
+    border-radius: 33%;
+    background-color: black;
+    color: #ffffff;
+    font-weight: 500;
+}
+
+.btn_btm button:hover {
+    background-color: #c7c3c3;
+    border: none;
+}

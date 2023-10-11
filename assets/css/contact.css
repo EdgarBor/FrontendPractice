@@ -1,0 +1,65 @@
+/* Contact part */
+
+.contact_us {
+    width: 100%;
+    padding: 100px 0;
+    background-color: antiquewhite;
+}
+
+.contact_content {
+    width: 30%;
+    margin: 0 auto;
+}
+
+.contact_us h2 {
+    font-size: 45px;
+    font-weight: 800;
+}
+
+.contact_us h4 {
+    font-weight: 500;
+    font-size: 14px;
+    margin: 40px 0;
+}
+
+.contact_us a {
+    text-decoration: underline;
+    color: rgb(0 0 0);
+}
+
+.form_input {
+    display: flex;
+    flex-direction: column;
+}
+
+.form_input label {
+    font-weight: 700;
+}
+
+.form_input input {
+    width: 100%;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.form_input textarea {
+    font-size: 15px;
+    font-weight: 500;
+    padding: 10px 15px;
+    border: 2px solid black;
+}
+
+.btn_form button {
+    padding: 14px 47px;
+    background-color: #ffffff;
+    border: 2px solid black;
+    font-weight: 700;
+    font-size: 14px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+.btn_form button:hover {
+    background-color: black;
+    color: #ffffff;
+}

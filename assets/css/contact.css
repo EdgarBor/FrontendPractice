@@ -30,6 +30,7 @@
 .form_input {
     display: flex;
     flex-direction: column;
+    line-height: 3;
 }
 
 .form_input label {

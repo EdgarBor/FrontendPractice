@@ -40,6 +40,9 @@
     width: 100%;
     font-size: 15px;
     font-weight: 500;
+    height: 40px;
+    padding: 0 15px;
+    border: 2px solid black;
 }
 
 .form_input textarea {
